@@ -1,0 +1,152 @@
+nav{
+    margin-bottom: 50px;
+    border-bottom: 3px solid #CFCAC9;
+    background-color: #FFFFFF;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+
+.hamb{
+    margin-top: 30px;
+    padding: 8px;
+    margin-left: 180px;
+}
+
+.hamb button{
+    border: none;
+    background-color: transparent;
+}
+
+.hamb:hover{
+    background-color: white;
+    border-radius: 6px;
+    width: max-content;
+    height: max-content;
+    box-shadow: 0px 0px 10px gainsboro;
+}
+  
+.srch{
+    border: 1px solid #F5EFEB;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 370px;
+    height: 40px;
+}
+
+.search{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.search input{
+    padding: 10px;
+}
+
+.search .box{
+    background-color: #F5EFEB;
+    width: 35px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box .space{
+    padding-top: 8px;
+}
+
+.box .space:hover{
+    background-color: #EFE9E5;
+    border-radius: 5px;
+
+}
+
+.logo img{
+    width: 200px;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.menu{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.menu .logo{
+    margin-left: 100px;
+}
+
+.lhb{
+    margin-top: 20px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lhb p{
+    font-size: 10px;
+}
+
+.lgn{
+    display: flex;
+}
+
+.lgn .lgncircle{
+    margin-left: -10px;
+    margin-top: -3px;
+    display: flex;
+}
+
+.lhb .gap{
+    width: 0.1px;
+    height: 40px;
+    background-color: #CFCAC9;
+}
+
+.nav-links{
+    margin-top: -10px;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    text-decoration: none;
+    gap: 30px;
+}
+
+.nav-info{
+    text-decoration: none;
+    color: black;
+}
+
+.dem{
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    margin-top: -5px;
+}
+
+
+@media screen and (max-width:2108px) {
+    .menu{
+        justify-content: center;
+        margin-right: 120px;
+    }
+
+    .nav-links{
+        justify-content: center;
+        margin-right: px;
+    }
+}
+
+
+
+
+
+

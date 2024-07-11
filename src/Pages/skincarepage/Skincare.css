@@ -1,0 +1,420 @@
+.hero-skin img{
+    margin-top: 190px;
+    width: 100%;
+}
+
+.skn{
+    margin-top: -270px;
+    text-align: center;
+    font-size: 65px;
+}
+
+.skn2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.parts{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pt{
+    color: black;
+    background-color: #ffffff;
+    border: 1.5px solid #B0A9A5;
+    border-radius: 5px;
+    margin-top: 20px;
+    gap: 10px;
+    width: 70px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 35px;
+}
+
+.skin-lv{
+    margin-top: 130px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.skin-lv .p1{
+    font-size: 45px;
+}
+
+.skin-lv .p2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.skincare-images{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skincare-images img{
+    width: 370px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.skincare-images .box{
+    width: 370px;
+    height: 460px;
+    border: 1px solid #D3CCC8;
+    border-radius: 5px;
+}
+
+.new-skn::before{
+    content: '';
+    position: absolute;
+    left: 10;
+    width: 5%;
+    height: 0.1px; 
+    background-color: #333333;
+}
+
+.new-skn::after{
+    content: "";
+    position: absolute;
+    left: 10;
+    width: 5%;
+    height: 0.1px; 
+    background-color: #333333;
+}
+
+.nw-skn{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.new-skn{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.new-cla::before{
+    content: '';
+    position: absolute;
+    left: 10;
+    width: 9%;
+    height: 0.1px; 
+    background-color: #333333;
+}
+
+.new-cla::after{
+    content: "";
+    position: absolute;
+    left: 10;
+    width: 9%;
+    height: 0.1px; 
+    background-color: #333333;
+}
+
+.nw-cla{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.new-cla{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+.top .snk-p1{
+    font-size: 20px;
+}
+
+.top .snk-p{
+    font-size: 15px;
+}
+
+.exp button{
+    background-color: #B40024;
+    border: 1px solid #B40024;
+    border-radius: 5px;
+    color: white;
+    width: 95px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.exp button:hover{
+    background-color: #8C0B26;
+    border: 1px solid #8C0B26;
+    transition: 0.5s;
+}
+
+.dealfix2{
+    margin-top: 20px;
+}
+
+.deals .box{
+    width: 100%;
+    height: 120px;
+    background-color: #FBF6F3;
+}
+
+.deal-txt{
+    white-space: nowrap;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.deals img{
+    width: 40px;
+    object-fit: fill;
+}
+
+.fix img{
+    width: 40px;
+    margin-top: 20px;
+}
+
+.deals-info{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.deals-info .box{
+    width: 280px;
+    height: 80px;
+    display: flex;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.box .deals-info .box{
+    margin-top: 20px;
+}
+
+.deals-info .box:hover{
+    background-color: #F5EFEB;
+}
+
+.body-fit-active{
+    margin-top: 60px;
+    margin-left: 170px;
+}
+
+.body-fit-active .box{
+    width: 1190px;
+    height: 490px;
+    border-radius: 5px;
+    border: transparent;
+    display: flex;
+}
+
+.body-fit-active .imgg1 img{
+    width: 138%;
+    height: 490px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.body-fit-active .imgg2 img{
+    height: 490px;
+    object-fit: cover;
+    margin-left: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cryo{
+    margin-bottom: -140px;
+}
+
+.cryo .box{
+    height: 390px;
+    width: 100%;
+    background-color: #FBF6F3;
+}
+
+.cryo .box img{
+    object-fit: contain;
+    width: 390px;
+    margin-left: 240px;
+}
+
+.cryo-info{
+    margin-left: 1000px;
+    margin-top: -350px;
+}
+
+.cryo-info .stars{
+    display: flex;
+    gap: 10px;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+
+.rev{
+    font-size: 35px;
+    margin-left: -95px;
+    margin-top: 20px;
+}
+
+.beu{
+    margin-left: -315px;
+    margin-top: 20px;
+}
+
+.cryo-info button{
+    background-color: #B40024;
+    border: #B40024;
+    border-radius: 5px;
+    color: white;
+    width: 130px;
+    height: 45px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.cryo-info button:hover{
+    background-color: #9D0625;
+    border: #B40024;
+    cursor: pointer;
+}
+
+.fixcryo{
+    margin-top: -100px;
+}
+
+.serv{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.serv .box{
+    width: 255px;
+    height: 450px;
+    border: 1px solid #D3CCC8;
+}
+
+.serv .box:hover{
+    box-shadow: 0px 5px 5px #333333;
+}
+
+.serv img{
+    width: 255px;
+    object-fit: fill;
+    border-right: 0.9px solid #D3CCC8;
+}
+
+.serv .box p{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.serv .link{
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.serv .link:hover{
+    color: #B40024;
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.line-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineee{
+    width: 28%;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.title{
+    font-size: 20px;
+    color: #000;
+    margin: 0 10px;
+}
+
+.adj2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signinfo{
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+.signinfo input{
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E9E3DE;
+    padding: 10px;
+    outline-color: #6893D2;
+}
+
+.signinfo input::placeholder{
+    color: black;
+}
+
+.subscribe button{
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #B40024;
+    color: white;
+    border: 1px solid #B40024;
+}
+
+.subscribe{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.subscribe button:hover{
+    background-color: #9D0625;
+    border: 1px solid #9D0625;
+}
+
+.rest-skn{
+    font-size: 12px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rest-skn2{
+    margin-top: 40px;
+    color: #797674;
+    text-align: center;
+}
+
+footer{
+    margin-top: 30px;
+}

@@ -1,0 +1,18 @@
+@import url(https://db.onlinewebfonts.com/c/83002244aefead70ef87bc2ff59781a9?family=GothamSSm-Medium);
+@font-face {
+    font-family: "GothamSSm-Medium";
+    src: url("https://db.onlinewebfonts.com/t/83002244aefead70ef87bc2ff59781a9.eot");
+    src: url("https://db.onlinewebfonts.com/t/83002244aefead70ef87bc2ff59781a9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/83002244aefead70ef87bc2ff59781a9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/83002244aefead70ef87bc2ff59781a9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/83002244aefead70ef87bc2ff59781a9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/83002244aefead70ef87bc2ff59781a9.svg#GothamSSm-Medium")format("svg");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "GothamSSm-Medium";
+}
